@@ -33,14 +33,14 @@
     "api",
     "scraper"
   ],
-  "author": "Your Name",
+  "author": "Manav Kundra",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/hn-server.git"
+    "url": "git+https://github.com/pskill9/hn-server.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/hn-server/issues"
+    "url": "https://github.com/pskill9/hn-server/issues"
   },
-  "homepage": "https://github.com/yourusername/hn-server#readme"
+  "homepage": "https://github.com/pskill9/hn-server#readme"
 }

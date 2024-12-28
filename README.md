@@ -13,7 +13,7 @@ A Model Context Protocol (MCP) server that provides tools for fetching stories f
 
 1. Clone the repository:
 ```bash
-git clone [your-repo-url]
+git clone [https://github.com/pskill9/hn-server]
 cd hn-server
 ```
 
@@ -81,6 +81,53 @@ Sample output:
   // ... more stories
 ]
 ```
+
+## Integrating with Claude
+
+To use this MCP server with Claude, you'll need to:
+
+1. Have the Claude desktop app or VSCode Claude extension installed
+2. Configure the MCP server in your settings
+3. Use Claude's natural language interface to interact with Hacker News
+
+### Configuration
+
+For the Claude desktop app, add the server configuration to:
+```json
+// ~/Library/Application Support/Claude/claude_desktop_config.json (macOS)
+// %APPDATA%\Claude\claude_desktop_config.json (Windows)
+{
+  "mcpServers": {
+    "hacker-news": {
+      "command": "node",
+      "args": ["/path/to/hn-server/build/index.js"]
+    }
+  }
+}
+```
+
+For the VSCode Claude extension, add to:
+```json
+// VSCode Settings JSON
+{
+  "mcpServers": {
+    "hacker-news": {
+      "command": "node",
+      "args": ["/path/to/hn-server/build/index.js"]
+    }
+  }
+}
+```
+
+### Example Interactions
+
+Once configured, you can interact with Claude using natural language to fetch Hacker News stories. Examples:
+
+- "Show me the top 5 stories from Hacker News"
+- "What are the latest Ask HN posts?"
+- "Get me the top Show HN submissions from today"
+
+Claude will automatically use the appropriate parameters to fetch the stories you want.
 
 ### Story Object Structure
 
