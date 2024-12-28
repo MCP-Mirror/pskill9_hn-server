@@ -13,7 +13,7 @@ A Model Context Protocol (MCP) server that provides tools for fetching stories f
 
 1. Clone the repository:
 ```bash
-git clone [https://github.com/pskill9/hn-server]
+git clone https://github.com/pskill9/hn-server
 cd hn-server
 ```
 
