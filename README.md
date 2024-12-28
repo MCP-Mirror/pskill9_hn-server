@@ -129,6 +129,8 @@ Once configured, you can interact with Claude using natural language to fetch Ha
 
 Claude will automatically use the appropriate parameters to fetch the stories you want.
 
+![Claude using the Hacker News MCP server](Claude.png)
+
 ### Story Object Structure
 
 Each story object contains:
