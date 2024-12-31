@@ -2,6 +2,8 @@
 
 A Model Context Protocol (MCP) server that provides tools for fetching stories from Hacker News. This server parses the HTML content from news.ycombinator.com and provides structured data for different types of stories (top, new, ask, show, jobs).
 
+<a href="https://glama.ai/mcp/servers/oge85xl22f"><img width="380" height="200" src="https://glama.ai/mcp/servers/oge85xl22f/badge" alt="Hacker News MCP server" /></a>
+
 ## Features
 
 - Fetch different types of stories (top, new, ask, show, jobs)
